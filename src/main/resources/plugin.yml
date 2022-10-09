@@ -1,0 +1,16 @@
+name: LouCore
+author: Taxalo
+version: 0.1.0
+main: com.taxalo.loucore.LouCore
+description: Server Core by Taxalo
+api-version: 1.18
+commands:
+  setcolor:
+    description: Changes your name color.
+    usage: /<command> [aqua|gold|gray|red|green]
+    permission: loucore.setcolor
+    permission-message: You do not have permission to change your name color.
+  perms:
+    descrption: Manages user permissions
+    usage: /perms [add|remove|list] <player> <permission>
+    permission: loucore.perms
